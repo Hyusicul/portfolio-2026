@@ -589,24 +589,46 @@ params:
   # About
   about:
     enable: true
-    title: "About Me"
-    image: "/images/me.png"
+    title: "자기소개"
+    image: "images/park-hyun-profile.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      안녕하세요. 전북대학교 스마트팜학과에 재학 중이며,
+      컴퓨터인공지능학부 인공지능학과를 복수전공하고 있는 박현입니다.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      전북대학교 디지털 농업 AI 트랙을 이수했으며,
+      스마트팜과 인공지능을 결합한 기술에 관심이 있습니다.
+
+      **관심 분야**
+
+      농업 현장에서 발생하는 문제를 소프트웨어와 인공지능으로
+      해결하는 기술에 관심이 있습니다. 특히 과실 품질 분석과
+      스마트폰 기반 농업 서비스 개발에 흥미를 가지고 있습니다.
+
+      **학습 목표**
+
+      AI 모델과 웹·앱 서비스를 안정적으로 연결하여
+      실제 농업 현장에서 활용할 수 있는 서비스를 개발하는 것이 목표입니다.
+
+      **앞으로의 계획**
+
+      PeachScope 프로젝트를 발전시키면서 이미지 분석 정확도를 개선하고,
+      Android 앱과 서버 및 데이터베이스 연동 기술을 학습하겠습니다.
+
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "학습 및 활용 기술"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Python"
+        - "Kotlin"
+        - "HTML / CSS / JavaScript"
+        - "Vue"
+        - "FastAPI"
+        - "Firebase"
+        - "Git / GitHub"
+        - "GitHub Actions"
 
-  # Experience
+
+# Experience
   experience:
     enable: true
     title: "학교생활 및 활동"
