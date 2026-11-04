@@ -662,6 +662,9 @@ params:
     items:
       - title: "대한민국 육군 병장 만기전역"
         content: "대한민국 육군 제15보병사단에서 군 복무를 마치고 병장으로 만기전역했습니다."
+
+      - title: "운전면허 1종 보통"
+        content: "자동차운전면허 제1종 보통을 보유하고 있습니다."
  # projects
   projects:
     enable: true
