@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+﻿baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
 title: "Hugo Profile"
 
@@ -650,7 +650,7 @@ params:
 
       - company: "Apple"
         companyUrl: "https://example.com"
-        jobs: 
+        jobs:
         - name: "Junior Software Developer"
           date: "Jan 2020 - Aug 2020"
           featuredItems:
@@ -689,45 +689,39 @@ params:
   # Education
   education:
     enable: true
-    # title: "Custom Name"
+    title: "학력 및 교육"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "스마트팜학과 · 인공지능학과 복수전공"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "전북대학교"
+        date: "재학 중"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          - 주전공: 스마트팜학과
+          - 복수전공: 컴퓨터인공지능학부 인공지능학과
+          - 스마트팜과 인공지능을 결합한 기술을 학습하고 있습니다.
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
+      - title: "디지털 농업 AI 트랙"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "전북대학교"
+        date: "이수 완료"
+        content: "디지털 농업과 인공지능 융합 교육과정을 이수했습니다."
+
+      - title: "고등학교 졸업"
+        school:
+          name: "전주영생고등학교"
+        date: "2022년 2월 졸업"
+
+      - title: "중학교 졸업"
+        school:
+          name: "전주풍남중학교"
+        date: "2019년 2월 졸업"
+
+      - title: "초등학교 졸업"
+        school:
+          name: "전주삼천남초등학교"
+        date: "2016년 2월 졸업"
+
 
   # Achievements
   achievements:
