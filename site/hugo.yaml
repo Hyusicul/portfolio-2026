@@ -655,30 +655,14 @@ params:
           name: "전주삼천남초등학교"
         date: "2016년 2월 졸업"
 
-
-  # Achievements
+# Achievements
   achievements:
     enable: true
-    # title: "Custom Name"
+    title: "활동 이력 및 자격"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievement.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievement.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievement.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
-
-  # projects
+      - title: "대한민국 육군 병장 만기전역"
+        content: "대한민국 육군 제15보병사단에서 군 복무를 마치고 병장으로 만기전역했습니다."
+ # projects
   projects:
     enable: true
     # title: "Custom Name"
