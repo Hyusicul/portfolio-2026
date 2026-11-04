@@ -615,7 +615,10 @@ params:
         companyUrl: "https://www.jbnu.ac.kr/"
         jobs:
           - name: "제1대 학생회 홍보국원"
-	    content: "전북대학교 스마트팜학과 제1대 학생회 홍보국원으로 활동했습니다."
+            content: "전북대학교 스마트팜학과 제1대 학생회 홍보국원으로 활동하며 학과 홍보 관련 업무를 경험했습니다."
+
+          - name: "제4대 학생회 홍보국원"
+            content: "전북대학교 스마트팜학과 제4대 학생회 홍보국원으로 활동하며 학과 구성원을 위한 홍보 활동에 참여했습니다."
 # Education
   education:
     enable: true
