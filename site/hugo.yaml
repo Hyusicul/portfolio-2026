@@ -562,10 +562,10 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
+    intro: "안녕하세요, 저는"
+    title: "박현(朴賢)입니다."
+    subtitle: "스마트팜 × AI × 웹·앱 개발"
+    content: "전북대학교 스마트팜학과에 재학 중이며 컴퓨터인공지능학부 인공지능학과 복수전공을 이수 중입니다. 디지털 농업 AI 트랙을 이수했으며, 농업 현장의 문제를 인공지능과 소프트웨어로 해결하는 기술에 관심이 있습니다."
     image: /images/hero.svg
     bottomImage:
       enable: true
