@@ -1,0 +1,13 @@
+{
+  "config": "hugo.yaml,pages.json",
+  "theme": "template",
+  "sample": "exampleSite",
+  "version": "0.143.0",
+  "slug": "hugo-profile",
+  "npm": [],
+  "asset_build": [],
+  "generator": "3.1",
+  "repo": "https://github.com/Hyusicul/portfolio-2026.git",
+  "baseURL": "https://hyusicul.github.io/portfolio-2026/",
+  "audited": false
+}
