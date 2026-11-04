@@ -665,55 +665,30 @@ params:
 
       - title: "운전면허 1종 보통"
         content: "자동차운전면허 제1종 보통을 보유하고 있습니다."
- # projects
+
+# projects
   projects:
     enable: true
-    # title: "Custom Name"
+    title: "개발 프로젝트"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+      - title: "PeachScope - 복숭아 품질 예측 앱"
+        content: "2026년 진행 중인 스마트팜 팀 프로젝트입니다. 복숭아 RGB 사진을 활용해 당도와 경도를 예측하는 앱을 개발하고 있습니다. 저는 Android 앱 및 서버 연동을 담당하며 이미지 촬영, 크기와 RGB 분석, AI 모델 연동 및 결과 표시 기능을 구현했습니다. 농업 현장의 품질 판단을 지원하는 것이 목표이며, 인식 정확도와 서비스 안정성을 개선하고 있습니다."
+        image: "images/peachscope.png"
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          - "Kotlin"
+          - "Android"
+          - "Python"
+          - "FastAPI"
+          - "Smart Farm"
+          - "AI"
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+      - title: "Blue Chat - 채팅 애플리케이션"
+        content: "사용자 간 소통을 위한 채팅 애플리케이션 개발 프로젝트입니다. 채팅 서비스의 화면 구성과 사용자 인터페이스를 설계하고 구현했습니다. 사용자 상호작용을 고려하는 방법을 학습했으며, 향후 기능과 사용성을 개선하는 것이 목표입니다."
+        image: "images/bluechat.png"
         badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - "Application"
+          - "Chat"
+          - "UI/UX"
 
   #Contact
   contact:
