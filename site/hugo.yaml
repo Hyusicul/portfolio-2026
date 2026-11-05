@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://hyusicul.github.io/portfolio-2026/"
 languageCode: "en-us"
 title: "박현 Portfolio"
 
@@ -40,7 +40,7 @@ markup:
 
 params:
   title: "박현 Portfolio"
-  description: Text about my cool site
+  description: "전북대학교 스마트팜학과 박현의 스마트팜, 인공지능 및 웹·앱 개발 프로젝트 포트폴리오"
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -94,7 +94,7 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "박현 Portfolio" # Brand name for the brand | default is the title variable
     disableSearch: true
     # searchPlaceholder: "Search"
