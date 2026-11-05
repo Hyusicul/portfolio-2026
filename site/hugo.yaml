@@ -557,7 +557,7 @@ params:
       disableEducation: false
       disableProjects: false
       disableAchievements: false
-      disableContact: false
+      disableContact: true
 
   # Hero
   hero:
@@ -705,19 +705,9 @@ params:
           - "Chat"
           - "UI/UX"
 
-  #Contact
+  # Contact - disabled
   contact:
-    enable: true
-    # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
-    #   messageRows: 5
+    enable: false
 
   footer:
     recentPosts:
