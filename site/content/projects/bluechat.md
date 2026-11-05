@@ -1,6 +1,12 @@
 ---
 title: "Blue Chat | 실시간 채팅 애플리케이션"
 description: "Firebase Authentication·Firestore·Cloudinary를 활용한 Android 실시간 메신저"
+date: 2026-11-05
+tags:
+  - "Android"
+  - "Kotlin"
+  - "Firebase"
+  - "Cloudinary"
 draft: false
 ---
 

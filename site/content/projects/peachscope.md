@@ -1,6 +1,13 @@
 ---
 title: "PeachScope | 복숭아 품질 분석 앱"
 description: "스마트폰 촬영과 RGB 기반 외형 분석을 결합한 복숭아 품질 판단 지원 프로젝트"
+date: 2026-11-05
+tags:
+  - "Smart Farm"
+  - "Android"
+  - "Kotlin"
+  - "FastAPI"
+  - "AI"
 draft: false
 ---
 
