@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="PeachScope 프로젝트 소개 PDF 자료 열람">
+<title>PeachScope 프로젝트 소개 · 박현 Portfolio</title>
+<style>
+:root{--bg:#edf3f0;--fg:#18392d;--line:#cfe0d6;--accent:#176843}
+*{box-sizing:border-box}html,body{height:100%;margin:0}
+body{display:flex;flex-direction:column;font-family:system-ui,-apple-system,'Malgun Gothic',sans-serif;color:var(--fg);background:var(--bg)}
+header{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding:12px clamp(12px,3vw,32px);background:white;border-bottom:1px solid var(--line)}
+header h1{font-size:clamp(1rem,2vw,1.25rem);margin:0;flex:1;min-width:190px}
+a.btn{display:inline-flex;align-items:center;gap:5px;min-height:40px;text-decoration:none;border:1px solid var(--accent);border-radius:10px;padding:8px 13px;color:var(--accent);font-size:.93rem;font-weight:700}
+a.btn.primary{background:var(--accent);color:white}
+a.btn:focus-visible{outline:3px solid #e4a21b;outline-offset:3px}
+main{display:flex;flex:1;min-height:0;flex-direction:column;padding:12px clamp(8px,2.5vw,30px)}
+main p{margin:0 0 8px;font-size:.82rem;color:#576b60}
+iframe{display:block;width:100%;flex:1;min-height:400px;background:white;border:1px solid var(--line);border-radius:9px}
+@media(max-width:600px){header{align-items:stretch}header h1{flex-basis:100%}a.btn{justify-content:center;flex:1}main{padding:8px}}
+</style>
+</head>
+<body>
+<header>
+<a class="btn" href="../#projects">← 포트폴리오로 돌아가기</a>
+<h1>PeachScope 프로젝트 소개 <span style="font-weight:400;color:#60776b">· 2026.09.21–진행 중</span></h1>
+<a class="btn primary" href="../docs/peachscope-overview.pdf" target="_blank" rel="noopener">PDF 별도 열기</a>
+</header>
+<main>
+<p>브라우저 내 PDF 열람 화면입니다. 문서가 표시되지 않으면 오른쪽의 'PDF 별도 열기'를 누르세요.</p>
+<iframe src="../docs/peachscope-overview.pdf#view=FitH" title="PeachScope 프로젝트 소개 PDF 문서"></iframe>
+</main>
+</body></html>
