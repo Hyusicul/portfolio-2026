@@ -178,7 +178,7 @@ params:
     title: "학교생활 및 활동"
     items:
       - company: "전북대학교 스마트팜학과 (JBNU)"
-        companyUrl: "https://www.jbnu.ac.kr/"
+        companyUrl: "https://sfarm.jbnu.ac.kr/jsf/index.do"
         jobs:
           - name: "제1대 학생회 홍보국원"
             content: "전북대학교 스마트팜학과 제1대 학생회 홍보국원으로 활동하며 학과 홍보 관련 업무를 경험했습니다."
