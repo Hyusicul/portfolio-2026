@@ -287,3 +287,78 @@ Hugo Profile 테마를 기반으로 개인화한 포트폴리오입니다.
 
 
 원본 테마의 저작권 및 라이선스 고지를 유지합니다.
+
+## 설치 및 빌드 재현 안내
+
+### 필수 도구
+
+- Git: 저장소 다운로드 및 버전 관리
+- Hugo Extended: 0.143.0 (배포 기준 버전)
+- Python: 3.9 이상 (배포 스크립트 실행)
+- Node.js 및 npm: 테마 관련 빌드 의존성 준비
+
+GitHub Actions에서는 Python 3.12, Node.js 24,
+Go 1.27.1, Hugo Extended 0.143.0,
+Dart Sass 1.105.0을 사용합니다.
+
+### Windows 설치
+
+PowerShell에서 Hugo Extended를 설치할 수 있습니다.
+
+```powershell
+winget install -e --id Hugo.Hugo.Extended
+hugo version
+```
+
+WinGet은 최신 버전을 설치할 수 있으므로,
+배포와 동일한 버전이 필요한 경우 Hugo 공식 릴리스의
+v0.143.0 Extended를 사용합니다.
+
+Hugo 설치 안내:
+https://gohugo.io/installation/windows/
+
+Hugo v0.143.0 릴리스:
+https://github.com/gohugoio/hugo/releases/tag/v0.143.0
+
+### 저장소 복제 및 실행
+
+```powershell
+git clone https://github.com/Hyusicul/portfolio-2026.git
+cd portfolio-2026
+```
+
+배포 환경과 동일한 의존성 준비 스크립트는 다음과 같습니다.
+
+```powershell
+python .github/pages_build.py --dependencies
+```
+
+이 스크립트를 실행하려면 필요한 Node.js 등의
+빌드 도구가 설치되어 있어야 합니다.
+
+배포용 정적 사이트 생성:
+
+```powershell
+python .github/pages_build.py --build
+```
+
+생성된 정적 파일은 public 폴더에서 확인합니다.
+
+로컬 미리보기:
+
+```powershell
+cd site
+hugo server --theme template --config hugo.yaml,pages.json --baseURL http://localhost:1313/
+```
+
+브라우저에서 http://localhost:1313/ 에 접속합니다.
+
+### 재현 시 주의사항
+
+- 본 프로젝트는 Hugo Profile 테마를 사용합니다.
+- 설정 파일은 site/hugo.yaml 및 site/pages.json입니다.
+- GitHub Actions는 main 브랜치 Push 시 자동으로 실행됩니다.
+- 로컬 빌드 시 환경에 따라 Go, Dart Sass 등의
+  추가 빌드 도구가 필요할 수 있습니다.
+- 배포 성공 여부는 GitHub Actions의
+  build 및 deploy 작업에서 확인합니다.
